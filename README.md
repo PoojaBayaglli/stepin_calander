@@ -1,8 +1,7 @@
 # stepin_calander
 #include <stdio.h>
   
-// Function that returns the index of the
-// day for date DD/MM/YYYY
+// day for date Date/month/year
 int dayNumber(int day, int month, int year)
 {
   
@@ -16,9 +15,7 @@ int dayNumber(int day, int month, int year)
            % 7;
 }
   
-// Function that returns the name of the
-// month for the given month Number
-// January - 0, February - 1 and so on
+
 char* getMonthName(int monthNumber)
 {
     char* month;
@@ -64,8 +61,7 @@ char* getMonthName(int monthNumber)
     return month;
 }
   
-// Function to return the number of days
-// in a month
+//  number of days in a month
 int numberOfDays(int monthNumber, int year)
 {
     // January
@@ -74,8 +70,8 @@ int numberOfDays(int monthNumber, int year)
   
     // February
     if (monthNumber == 1) {
-        // If the year is leap then Feb
-        // has 29 days
+        // If the year is leap  year then Feb=29 days
+        
         if (year % 400 == 0
             || (year % 4 == 0
                 && year % 100 != 0))
@@ -126,7 +122,6 @@ int numberOfDays(int monthNumber, int year)
 }
   
 // Function to print the calendar of
-// the given year
 void printCalendar(int year)
 {
     printf("     Calendar - %d\n\n", year);
