@@ -1,1 +1,31 @@
+calendar using C program.
+here c program is used to display calendar which uses smaller modules called functions to devide the logic of program,
+it providesa very simple interface and display days,months and year based on given input by the user.
 
+
+SWOT Analysis
+STRENGTHS
+The c calendar is very very simple console application,File handling is used here.
+WEAKNESS
+Time scale and deadline.
+Gap in knowledge and expertise.
+OPPORTUNITIES
+Skill devlopment.
+Enlargment of system scope.
+THREATS
+Competetive intensions.
+
+
+4 W's and  1 H
+WHO
+Anyone who are interested to know the exact dates months of the event of the particular year can get the exact date/month/year.
+What
+This program is conveys the leap year also
+When
+any where,any time the details of event can be achived. 
+
+Why
+As this project uses C programming language it can be easy to understand the logic.
+
+How
+Implemented using Functions , loops and other functionalities of C.
